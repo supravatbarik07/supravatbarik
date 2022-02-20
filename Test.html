@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .world{
+            text-align: center;
+            color:red;
+        }
+        input{
+            margin-top: 35px;
+            border: 1px solid rgb(54, 44, 44);
+            width: 200px;
+            padding: 10px;
+        }
+        button{
+            color: blueviolet;
+            width: 80px;
+            height: 30px;
+             background-color: rgb(224, 232, 241);
+            border-radius: 10px;
+                margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="world">Welcome to car world</h1>
+    <form action="">
+        <!-- <label>Name</label> -->
+        <input type="text" placeholder="enter your name"><br>
+        <!-- <label>Ph.number</label> -->
+        <input type="number" placeholder="enter your phone no" min="10" max="10" step="0.1"><br>
+        <!-- <label>Email</label> -->
+        <input type="email" placeholder="Enter your email"><br>
+        <input type="text" placeholder="Enter your country name"><br>
+    </form>
+    <div> <h2>Please select which vehicle you have</h2>
+        Bike <input type="radio" name="status">
+        Car <input type="radio" name="status">
+    </div>
+    <div>
+        <h2> select Bike</h2>
+        <select>
+            <option>r15</option>
+            <option>Cbr</option>
+            <option>Royal enfield</option>
+            <option>Unicorn</option>
+            <option>Zmr</option>
+        </select>
+        <h2> Select car</h2>
+        <select><option>Tata</option>
+        <option>Hundai</option>
+        <option>Mahindra</option>
+        <option>Toyata</option>
+        </select>
+    </div>
+    <h2> select your fav. bike</h2>
+    <form> 
+        Fav. bike: <input type="checkbox">r15
+        <input type="checkbox">Zmr
+        <input type="checkbox">Unicorn
+        <input type="checkbox">RTR
+        <input type="checkbox">CBR <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
